@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar</title>
+    <link rel="stylesheet" href="./kaldrusthi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <form action="" class="search-box">
+        <input type="search"  id="searchInput" placeholder="Search here ...">
+        <i class="fa fa-search" onclick="analyzeSearch()"></i>
+    </form>
+ 
+    <audio id="backgroundAudio" loop>
+        <source src="kalsound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+   <div class="animated-text">
+        <div id="result" ></div>
+    </div>
+<script src="kaldrusthi.js"></script>
+</body>
+</html>
