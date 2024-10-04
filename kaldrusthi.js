@@ -29,17 +29,22 @@ function analyzeSearch() {
     let resultText = "";
     //game
     if (searchValue === "game") {
-        resultText = "you can search that 1.puzzle, 2.";
+        resultText = "you can search that 1.puzzle, 2.memory card";
        
         //name
+    } 
+       else if (searchValue === "memory card") {
+        resultText = "";
+        location.href = '';
     } 
     else if (searchValue === "puzzle") {
         resultText = "";
         location.href = 'game/puzzle.html';
     } 
     else if (searchValue === "login") {
-        resultText = "";
+        resultText = "index.html";
         location.href = 'login.htm';
+      
     } 
     else if (searchValue === "message") {
         resultText = "";
